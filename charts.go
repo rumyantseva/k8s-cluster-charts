@@ -8,7 +8,7 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/rumyantseva/charts/version"
+	"github.com/rumyantseva/k8s-cluster-charts/version"
 	"github.com/takama/router"
 )
 

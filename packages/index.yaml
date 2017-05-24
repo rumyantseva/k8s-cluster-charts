@@ -1,7 +1,7 @@
 apiVersion: v1
 entries:
   charts:
-  - created: 2017-05-24T15:23:54.106618772+07:00
+  - created: 2017-05-24T15:43:30.390546879+07:00
     description: A Helm chart for Kubernetes charts repository
     digest: 5e6cb50ac3c9d16172603f19370c045dacd66ec4012f1c944c7dfebe3a070e74
     engine: gotpl
@@ -16,7 +16,7 @@ entries:
     - https://services.grahovac.me/charts/charts-0.1.7.tgz
     version: 0.1.7
   github-integration:
-  - created: 2017-05-24T15:23:54.106934946+07:00
+  - created: 2017-05-24T15:43:30.390966543+07:00
     description: A Helm chart for github-integration service
     digest: 47baa7293275776e4e93bdb9d1c689578d6f82ce950c65ab31d7999b26f9035e
     engine: gotpl
@@ -31,7 +31,7 @@ entries:
     - https://services.grahovac.me/charts/github-integration-0.0.1.tgz
     version: 0.0.1
   oauth-proxy:
-  - created: 2017-05-24T15:23:54.107190647+07:00
+  - created: 2017-05-24T15:43:30.391340035+07:00
     description: A Helm chart for oauth-proxy service
     digest: a0aaee60dba926c02d34a247aabf65e0202712bc44c33b5be0657d2295d11f15
     engine: gotpl
@@ -46,7 +46,7 @@ entries:
     - https://services.grahovac.me/charts/oauth-proxy-0.0.3.tgz
     version: 0.0.3
   user-manager:
-  - created: 2017-05-24T15:23:54.107467403+07:00
+  - created: 2017-05-24T15:43:30.391608004+07:00
     description: A Helm chart for user-manager service
     digest: 0eedd0830400df026066426b9cf182f69b91568ff7a17f1ec65795d478f896ba
     engine: gotpl
@@ -60,4 +60,4 @@ entries:
     urls:
     - https://services.grahovac.me/charts/user-manager-0.0.3.tgz
     version: 0.0.3
-generated: 2017-05-24T15:23:54.106179758+07:00
+generated: 2017-05-24T15:43:30.389913213+07:00

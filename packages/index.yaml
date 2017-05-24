@@ -1,9 +1,9 @@
 apiVersion: v1
 entries:
   charts:
-  - created: 2017-05-19T08:51:12.492396823+07:00
+  - created: 2017-05-24T15:23:54.106618772+07:00
     description: A Helm chart for Kubernetes charts repository
-    digest: f864f0c362810f639a847c31a1a10c794e4a1f7d680a1221e0ad7625d2d214d2
+    digest: 5e6cb50ac3c9d16172603f19370c045dacd66ec4012f1c944c7dfebe3a070e74
     engine: gotpl
     home: https://k8s.community/
     maintainers:
@@ -11,14 +11,14 @@ entries:
       name: Igor Dolzhikov
     name: charts
     sources:
-    - https://github.com/k8s-community/charts
+    - https://github.com/rumyantseva/charts
     urls:
-    - https://services.k8s.community/charts/charts-0.1.7.tgz
+    - https://services.grahovac.me/charts/charts-0.1.7.tgz
     version: 0.1.7
   github-integration:
-  - created: 2017-05-19T08:51:12.49299946+07:00
+  - created: 2017-05-24T15:23:54.106934946+07:00
     description: A Helm chart for github-integration service
-    digest: e45e77acdefe3ec30f686bebaec33ed810f7772ad9c87f1ad1b9284f4ad2ede8
+    digest: 47baa7293275776e4e93bdb9d1c689578d6f82ce950c65ab31d7999b26f9035e
     engine: gotpl
     home: https://k8s.community/
     maintainers:
@@ -28,12 +28,12 @@ entries:
     sources:
     - https://github.com/k8s-community/github-integration
     urls:
-    - https://services.k8s.community/charts/github-integration-0.0.1.tgz
+    - https://services.grahovac.me/charts/github-integration-0.0.1.tgz
     version: 0.0.1
   oauth-proxy:
-  - created: 2017-05-19T08:51:12.493571325+07:00
+  - created: 2017-05-24T15:23:54.107190647+07:00
     description: A Helm chart for oauth-proxy service
-    digest: 1c48e24d1d29c3d87d1b2197a3bdf5c0084c537e231a36b9798e96aaa20e2e55
+    digest: a0aaee60dba926c02d34a247aabf65e0202712bc44c33b5be0657d2295d11f15
     engine: gotpl
     home: https://k8s.community/
     maintainers:
@@ -43,12 +43,12 @@ entries:
     sources:
     - https://github.com/k8s-community/oauth-proxy
     urls:
-    - https://services.k8s.community/charts/oauth-proxy-0.0.3.tgz
+    - https://services.grahovac.me/charts/oauth-proxy-0.0.3.tgz
     version: 0.0.3
   user-manager:
-  - created: 2017-05-19T08:51:12.494048512+07:00
+  - created: 2017-05-24T15:23:54.107467403+07:00
     description: A Helm chart for user-manager service
-    digest: 8fbc6f816f8f0123f256a3bd2cfa7e929c822ae5f5dea854bfcc69109c450203
+    digest: 0eedd0830400df026066426b9cf182f69b91568ff7a17f1ec65795d478f896ba
     engine: gotpl
     home: https://k8s.community/
     maintainers:
@@ -58,6 +58,6 @@ entries:
     sources:
     - https://github.com/k8s-community/user-manager
     urls:
-    - https://services.k8s.community/charts/user-manager-0.0.3.tgz
+    - https://services.grahovac.me/charts/user-manager-0.0.3.tgz
     version: 0.0.3
-generated: 2017-05-19T08:51:12.491372001+07:00
+generated: 2017-05-24T15:23:54.106179758+07:00

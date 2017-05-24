@@ -4,7 +4,7 @@ BUILDTAGS=
 
 # Use the 0.0.0 tag for testing, it shouldn't clobber any release builds
 APP=charts
-USERSPACE?=k8s-community
+USERSPACE?=rumyantseva
 RELEASE?=0.1.7
 PROJECT?=github.com/${USERSPACE}/${APP}
 HELM_REPO?=https://services.grahovac.me/${APP}

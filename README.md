@@ -17,9 +17,9 @@ helm init
 
 ## Add charts repository
 
-This command registers specified charts repository served on `https://services.k8s.community/charts`
+This command registers specified charts repository served on `https://services.grahovac.me/charts`
 ```sh
-helm repo add community-charts https://services.k8s.community/charts
+helm repo add community-charts https://services.grahovac.me/charts
 ```
 
 ## Get charts repository information

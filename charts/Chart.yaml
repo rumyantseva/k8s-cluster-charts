@@ -3,7 +3,7 @@ description: A Helm chart for Kubernetes charts repository
 version: 0.1.7
 home: https://k8s.community/
 sources:
-  - https://github.com/k8s-community/charts
+  - https://github.com/rumyantseva/charts
 maintainers:
   - name: Igor Dolzhikov
     email: idolzhikov@openprovider.com

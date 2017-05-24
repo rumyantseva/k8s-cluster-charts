@@ -27,7 +27,7 @@ maxSurge: 1
 image:
   ## Docker Registry/Hub image name and tag
   ##
-  registry: registry.k8s.community
+  registry: registry.grahovac.me
   name: github-integration
   tag: 0.0.1
 
@@ -54,7 +54,7 @@ ingress:
   ## Must be provided if Ingress is enabled
   ##
   hosts:
-  - services.k8s.community
+  - services.grahovac.me
 
   ## Ingress path feature allow access to service through path 
   ## example: https://hostname/namespace/servicename
@@ -67,7 +67,7 @@ ingress:
   tls:
   - secretName: tls-secret
     hosts:
-    - services.k8s.community
+    - services.grahovac.me
 
 service:
   ## App container name

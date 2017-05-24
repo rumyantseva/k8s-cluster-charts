@@ -26,7 +26,7 @@ maxSurge: 1
 image:
   ## Docker Registry/Hub image name and tag
   ##
-  registry: registry.k8s.community
+  registry: registry.grahovac.me
   name: oauth-proxy
   tag: 0.0.3
 

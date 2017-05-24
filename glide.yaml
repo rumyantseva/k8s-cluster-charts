@@ -1,4 +1,4 @@
-package: github.com/k8s-community/charts
+package: github.com/rumyantseva/charts
 import:
 - package: github.com/takama/router
   version: ^0.6.0

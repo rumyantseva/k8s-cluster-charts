@@ -7,9 +7,9 @@ APP=charts
 USERSPACE?=k8s-community
 RELEASE?=0.1.7
 PROJECT?=github.com/${USERSPACE}/${APP}
-HELM_REPO?=https://services.k8s.community/${APP}
+HELM_REPO?=https://services.grahovac.me/${APP}
 GOOS?=linux
-REGISTRY?=registry.k8s.community
+REGISTRY?=registry.grahovac.me
 CHARTS_SERVICE_PORT?=8080
 CHARTS_SERVICE_HEALTH_PORT?=8082
 

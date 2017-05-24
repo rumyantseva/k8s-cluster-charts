@@ -30,7 +30,8 @@ endif
 
 vendor: clean
 	go get -u github.com/Masterminds/glide \
-	&& glide install
+	&& glide install \
+	&& glide up
 
 utils:
 	go get -u github.com/golang/lint/golint

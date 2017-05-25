@@ -1,9 +1,9 @@
 apiVersion: v1
 entries:
   charts:
-  - created: 2017-05-25T14:04:31.692259405+07:00
+  - created: 2017-05-25T14:46:24.04577589+07:00
     description: A Helm chart for Kubernetes charts repository
-    digest: dcbf71713c83f031c2660d74d42dd545cb6d8b6aea3e6ca7f475e8ff50f5227b
+    digest: 798470a0394c5c9f837301b3c8a03b40482e03d2695459bf627b4d5c21a4e6f2
     engine: gotpl
     home: https://k8s.community/
     maintainers:
@@ -13,12 +13,12 @@ entries:
     sources:
     - https://github.com/rumyantseva/charts
     urls:
-    - https://services.grahovac.me/charts/charts-0.1.8.tgz
-    version: 0.1.8
+    - https://services.grahovac.me/charts/charts-0.1.9.tgz
+    version: 0.1.9
   cockroachdb:
-  - created: 2017-05-25T14:04:31.692651218+07:00
+  - created: 2017-05-25T14:46:24.046161173+07:00
     description: CockroachDB is a scalable, survivable, strongly-consistent SQL database.
-    digest: fce2b783aca8da0b1a860d56946260a434055abddf5f54561c5b560bb9de7f12
+    digest: c7c5d554136aff3a5ea4210c05981bee4c67d9480997a0e0a80c7e42209886c4
     home: https://www.cockroachlabs.com
     icon: https://raw.githubusercontent.com/cockroachdb/cockroach/master/docs/media/cockroach_db.png
     maintainers:
@@ -28,10 +28,10 @@ entries:
     sources:
     - https://github.com/cockroachdb/cockroach
     urls:
-    - https://services.grahovac.me/charts/cockroachdb-0.2.3.tgz
-    version: 0.2.3
+    - https://services.grahovac.me/charts/cockroachdb-0.2.4.tgz
+    version: 0.2.4
   github-integration:
-  - created: 2017-05-25T14:04:31.692925272+07:00
+  - created: 2017-05-25T14:46:24.046446543+07:00
     description: A Helm chart for github-integration service
     digest: 47baa7293275776e4e93bdb9d1c689578d6f82ce950c65ab31d7999b26f9035e
     engine: gotpl
@@ -46,7 +46,7 @@ entries:
     - https://services.grahovac.me/charts/github-integration-0.0.1.tgz
     version: 0.0.1
   oauth-proxy:
-  - created: 2017-05-25T14:04:31.693202187+07:00
+  - created: 2017-05-25T14:46:24.046721547+07:00
     description: A Helm chart for oauth-proxy service
     digest: a0aaee60dba926c02d34a247aabf65e0202712bc44c33b5be0657d2295d11f15
     engine: gotpl
@@ -61,7 +61,7 @@ entries:
     - https://services.grahovac.me/charts/oauth-proxy-0.0.3.tgz
     version: 0.0.3
   user-manager:
-  - created: 2017-05-25T14:04:31.693495894+07:00
+  - created: 2017-05-25T14:46:24.046977584+07:00
     description: A Helm chart for user-manager service
     digest: 0eedd0830400df026066426b9cf182f69b91568ff7a17f1ec65795d478f896ba
     engine: gotpl
@@ -75,4 +75,4 @@ entries:
     urls:
     - https://services.grahovac.me/charts/user-manager-0.0.3.tgz
     version: 0.0.3
-generated: 2017-05-25T14:04:31.69182384+07:00
+generated: 2017-05-25T14:46:24.045397317+07:00

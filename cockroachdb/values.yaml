@@ -18,4 +18,3 @@ Resources:
   requests:
     cpu: "100m"
     memory: "512Mi"
-Storage: "1Gi"

@@ -190,13 +190,4 @@ spec:
       volumes:
       - name: datadir
         persistentVolumeClaim:
-          claimName: datadir
-  volumeClaimTemplates:
-  - metadata:
-      name: datadir
-    spec:
-      accessModes:
-        - "ReadWriteOnce"
-      resources:
-        requests:
-          storage: "{{.Values.Storage}}"
+          claimName: cockroachdb-claim
